@@ -10,7 +10,7 @@ body {
   background: radial-gradient(
     circle,
     rgba(0, 0, 0, 0.95) 60%,
-    rgba(0, 0, 0, 1) 100% 
+    rgba(0, 0, 0, 1) 100%
   );
 }
 /* -- HEADER -- */
@@ -24,7 +24,7 @@ body {
   justify-content: space-between;
   color: #cacaca;
 }
-a {
+.header-nav a {
   text-decoration: none;
   outline: none;
   color: #cacaca;
@@ -32,18 +32,49 @@ a {
 }
 /* NAME*/
 .header-nav h2:hover {
-    color: white;
-    cursor: pointer;
+  color: white;
+  cursor: pointer;
 }
 /* iconos */
 .header-nav img {
-    background-color: #cacaca;
-    border: 1px solid #cacaca;
-    border-radius: 50%;
-    transition: ease-in 100ms;
-    cursor: pointer;
+  background-color: #cacaca;
+  border: 1px solid #cacaca;
+  border-radius: 50%;
+  transition: ease-in 100ms;
+  cursor: pointer;
 }
 .header-nav img:hover {
-    background-color: white;
+  background-color: white;
 }
 /* -- PRINCI0PAL CONTENT ---*/
+.about {
+  width: 800px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  place-items: center;
+  color: #cacaca;
+  margin: 0 auto;
+}
+.about-my {
+  padding: 15px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-my a {
+  text-decoration: none;
+  outline: none;
+  color: #cacaca;
+}
+
+.about-my ul li {
+    padding-left: 15px;
+    list-style: none;
+}
+.my-image img {
+  width: 400px;
+  height: 400px;
+}
